@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>A* Pathfinding</title>
+</head>
+<body>
+    <div class="container-fluid" style="display: flex; justify-content: center; padding-top: 0.2%;">
+        <h2 class="text-danger">BÀI TẬP 2</h2>
+    </div>
+    <div class="row" id="hold">
+        <div class="col-5">
+            <h5 class="text-danger" style="text-align: center; padding-left: 2%; padding-bottom: 3%">Họ tên: Nguyễn Công Thành</h5>
+            <h5 class="text-danger" style="text-align: center; padding-left: 2%; padding-bottom: 3%">MSV: B23DCCN771</h5>
+            <div class="option" style="padding-left: 15%;">
+                <div class="option">
+                    <p>Kết quả:</p>
+                    <p>Số ô trên đường đi: <span id="result"></span></p>
+                    <p>Tổng chi phí đường đi: <span id="cost"></span></p>
+                    <p>Số ô đã xét: <span id="considered"></span></p>
+                </div>
+                <button type="button" class="btn btn-success" id="reload">Tải lại</button>
+            </div>
+        </div>
+        <div class="col-7 content" id="sketch-holder"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js" type="text/javascript"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
